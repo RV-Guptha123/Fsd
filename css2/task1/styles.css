@@ -1,0 +1,22 @@
+*{
+    background-color:yellow;
+}
+a{
+    font-size: 20px;
+}
+.links{
+    font-size: large;
+    
+}
+@media screen and (min-width: 768px) {
+  .links{
+    flex-direction: row; /* Switches items to a horizontal line */
+  }
+}
+@media screen and (max-width:768px){
+    .links{
+        padding: 10px;
+        margin: 20px;
+        display: grid;
+    }
+}

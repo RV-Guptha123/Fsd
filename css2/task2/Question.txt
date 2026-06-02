@@ -1,0 +1,15 @@
+Exercise 2: Responsive Student Profile Card
+Requirements
+Create a student card containing:
+• Profile Image
+• Name
+• Branch
+• Email
+Desktop:
+Image | Details
+Mobile:
+Image
+Details
+Concepts
+• Flexbox
+• Media Queries 

@@ -1,0 +1,21 @@
+*{
+    background-color: lightblue;
+}
+aside{
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 768px) {
+    div{
+        flex-direction: column;
+    }
+    aside{
+        display: none;
+    }
+}
