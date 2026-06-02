@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .traffic-light{
+            width: 200px;
+            height: 500px;
+            background-color: pink;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;  
+
+        }
+        .red{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+        }
+        .green{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        .yellow{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+        .red{
+            animation: light 6s infinite;
+            animation-delay: 0s;
+        }
+        .yellow{
+            animation: light 6s infinite;
+            animation-delay: 2s;
+        }
+        .green{
+            animation: light 6s infinite;
+            animation-delay: 4s;
+        }
+        @keyframes light{
+            0% { opacity: 0;}
+            33% { opacity: 0;}
+            66% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="traffic-light">
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+    </div>
+</body>
+</html>
