@@ -1,0 +1,38 @@
+.product{
+    width: 300px;
+    height: auto;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+button{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+img:hover{
+    box-shadow: 10px 10px 20px black;
+    transition: 2s;
+    transform: scale(1.1);
+}
+button:hover{
+    background-color: #d9d9d9;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
