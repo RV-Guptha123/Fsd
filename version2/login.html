@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="registration.html">Registration</a>
+    </div>
+    <form onsubmit="login(event)">
+        <h3>Login Page</h3>
+        Username: <input id="username" type="text" name="username" required><br><br>
+        Password: <input id="password" type="password" name="password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="registration.html">Register here</a></p>
+</body>
+</html>

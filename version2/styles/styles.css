@@ -1,0 +1,83 @@
+.header{
+    background-color: black;
+    text-align: center;  
+}
+a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 25px;
+    
+}
+a:hover{
+    color:yellow;
+}
+h1,h2,h3{
+    text-align: center;
+}
+p{
+    color: blue;
+}
+form{
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+    color: black;
+    font-size: 22px;
+    align-items: center;
+    display: block;
+    align-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+
+    border: 1px solid black;
+    
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+table{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    height: 30px;
+    border: 1px solid black;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    background-color: yellow;
+}
+table a{
+    color: black;
+    text-decoration: underline;
+}
+form input{
+    padding: 5px;
+    margin: 5px;
+}
+form button{
+    margin-left: 270px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 5px solid black;
+}  

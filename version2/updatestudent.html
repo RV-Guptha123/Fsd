@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="header">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="viewstudents.html">View Students</a>
+        <a href="logout.html">Logout</a>
+    </nav>
+    <form onsubmit="updateStudent(event)">
+        <h3>Update Student</h3>
+        <input id="student-id" type="hidden" value="">
+        Name:<input id="name" type="text" name="name" required><br><br>
+        Age:<input id="age" type="number" name="age" required><br><br>
+        Grade:<input id="grade" type="text" name="grade" required><br><br>
+        <button type="submit">Update Student</button>
+    </form>
+</body>
+</html>
